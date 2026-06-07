@@ -1,3 +1,4 @@
+![logo](https://github.com/idealhacker-byte/idealhacker-byte/blob/main/Screenshot%202026-06-07%20164209.png)
 <h1 align="center">Hi 👋, I'm Govind yadav</h1>
 <h3 align="center">A passionate AI Engineer from India</h3>
 <img align="right"alt="coding" width="400"src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnlwODlwYzNkbGFsb3l3enBpb29hNTIyc2k4MDF4cGk3YmI0anh6NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif">
