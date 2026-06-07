@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Govind Yadav - GitHub Banner</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@700;800&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0d1117;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 20px;
+  }
+
+  .label {
+    color: #58a6ff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  /* ──────────────────────────────────────────── */
+  /*  BANNER  (1500 × 500 px, scale down to fit)  */
+  /* ──────────────────────────────────────────── */
+  .banner-wrap {
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 3 / 1;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(0,200,255,0.18), 0 0 0 1px rgba(88,166,255,0.15);
+    position: relative;
+  }
+
+  .banner {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #020c1b 0%, #0a1628 40%, #061220 70%, #020c1b 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+  }
+
+  /* ---------- background grid ---------- */
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,200,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,200,255,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* ---------- glowing orbs ---------- */
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    pointer-events: none;
+  }
+  .orb1 { width: 380px; height: 380px; background: rgba(0,120,255,0.18); top: -100px; right: 10%; }
+  .orb2 { width: 260px; height: 260px; background: rgba(0,220,200,0.12); bottom: -80px; left: 35%; }
+  .orb3 { width: 180px; height: 180px; background: rgba(80,0,255,0.10); top: 20px; left: 20%; }
+
+  /* ---------- circuit lines ---------- */
+  .circuits {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* ---------- left content ---------- */
+  .left {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(9px, 1.1vw, 13px);
+    color: #00e5ff;
+    background: rgba(0,229,255,0.08);
+    border: 1px solid rgba(0,229,255,0.25);
+    padding: 4px 12px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    width: fit-content;
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity: 1; box-shadow: 0 0 8px rgba(0,229,255,0.3); }
+    50% { opacity: 0.7; box-shadow: 0 0 20px rgba(0,229,255,0.6); }
+  }
+
+  .name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 5.5vw, 64px);
+    line-height: 1;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, #ffffff 0%, #a8d8ff 50%, #00e5ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    animation: shimmer 4s linear infinite;
+    background-size: 200% auto;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+  }
+
+  .role {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: clamp(9px, 1.2vw, 14px);
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 1px;
+  }
+
+  .role span {
+    color: #00e5ff;
+    font-weight: 400;
+  }
+
+  .badges {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+
+  .badge {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(7px, 0.9vw, 10px);
+    padding: 3px 10px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .badge-ai   { background: rgba(0,229,255,0.12); color: #00e5ff; border: 1px solid rgba(0,229,255,0.3); }
+  .badge-sec  { background: rgba(255,80,120,0.10); color: #ff5078; border: 1px solid rgba(255,80,120,0.3); }
+  .badge-ind  { background: rgba(255,170,0,0.10);  color: #ffaa00; border: 1px solid rgba(255,170,0,0.3); }
+
+  /* ---------- right decoration ---------- */
+  .right {
+    position: relative;
+    z-index: 2;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hex-ring {
+    position: relative;
+    width: clamp(90px, 16vw, 190px);
+    height: clamp(90px, 16vw, 190px);
+  }
+
+  .hex-ring svg {
+    position: absolute;
+    inset: 0;
+    width: 100%; height: 100%;
+    animation: spin 12s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .avatar-placeholder {
+    position: absolute;
+    inset: 16%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d2137, #0a3a5a);
+    border: 2px solid rgba(0,229,255,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(20px, 3.5vw, 44px);
+    font-weight: 800;
+    color: rgba(0,229,255,0.7);
+    letter-spacing: -2px;
+  }
+
+  /* ---------- floating code snippets ---------- */
+  .code-float {
+    position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(6px, 0.75vw, 9px);
+    color: rgba(0,229,255,0.25);
+    letter-spacing: 0.5px;
+    pointer-events: none;
+    z-index: 1;
+    animation: floatCode 6s ease-in-out infinite;
+  }
+  .c1 { bottom: 12%; left: 3%; animation-delay: 0s; }
+  .c2 { top: 10%; right: 4%; animation-delay: 2s; }
+  .c3 { bottom: 8%; right: 22%; animation-delay: 4s; }
+
+  @keyframes floatCode {
+    0%,100% { transform: translateY(0); opacity: 0.25; }
+    50% { transform: translateY(-6px); opacity: 0.45; }
+  }
+
+  /* ---------- bottom bar ---------- */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent 0%, #00e5ff 30%, #58a6ff 60%, #7c3aed 80%, transparent 100%);
+    animation: barScan 3s linear infinite;
+    background-size: 200% 100%;
+  }
+  @keyframes barScan {
+    0% { background-position: -100% 0; }
+    100% { background-position: 200% 0; }
+  }
+</style>
+</head>
+<body>
+
+<p class="label">⬇ GitHub Profile Banner — Copy / Screenshot karein</p>
+
+<div class="banner-wrap">
+  <div class="banner">
+
+    <!-- bg layers -->
+    <div class="grid"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <!-- floating code -->
+    <div class="code-float c1">import anthropic<br>// AI • Cyber • India</div>
+    <div class="code-float c2">gen_ai = True<br>cyber_sec = True</div>
+    <div class="code-float c3">print("Hello, World!")</div>
+
+    <!-- left content -->
+    <div class="left">
+      <div class="tag">⚡ OPEN TO OPPORTUNITIES</div>
+
+      <div class="name">Govind Yadav</div>
+
+      <div class="role">
+        Future <span>AI Engineer</span> &amp; <span>Cyber Security</span> Enthusiast<br>
+        🇮🇳 India &nbsp;·&nbsp; Deep Thinker &nbsp;·&nbsp; Builder
+      </div>
+
+      <div class="badges">
+        <span class="badge badge-ai">🤖 Gen AI</span>
+        <span class="badge badge-sec">🔐 Cyber Security</span>
+        <span class="badge badge-ind">🇮🇳 India</span>
+      </div>
+    </div>
+
+    <!-- right avatar ring -->
+    <div class="right">
+      <div class="hex-ring">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="94" stroke="url(#grad1)" stroke-width="2" stroke-dasharray="8 6"/>
+          <circle cx="100" cy="100" r="80" stroke="rgba(0,229,255,0.15)" stroke-width="1"/>
+          <!-- dots on orbit -->
+          <circle cx="100" cy="6"   r="4" fill="#00e5ff" opacity="0.9"/>
+          <circle cx="188" cy="100" r="3" fill="#58a6ff" opacity="0.7"/>
+          <circle cx="100" cy="194" r="3" fill="#00e5ff" opacity="0.5"/>
+          <circle cx="12"  cy="100" r="2" fill="#7c3aed" opacity="0.6"/>
+          <defs>
+            <linearGradient id="grad1" x1="0" y1="0" x2="200" y2="200">
+              <stop offset="0%"   stop-color="#00e5ff"/>
+              <stop offset="50%"  stop-color="#58a6ff"/>
+              <stop offset="100%" stop-color="#7c3aed"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="avatar-placeholder">GY</div>
+      </div>
+    </div>
+
+    <div class="bottom-bar"></div>
+  </div>
+</div>
+
+</body>
+</html>
