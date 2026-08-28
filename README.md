@@ -77,3 +77,52 @@
     🔗 View Project
   </a>
 </p>
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/idealhacker-byte/idealhacker-byte/output/github-contribution-grid-snake.svg" width="900">
+</p>
+<h2 align="center">🏆 GitHub Achievements</h2>
+
+<p align="center">
+
+⭐ <strong>Open Source Contributor</strong> &nbsp;&nbsp;
+🐍 <strong>Python Developer</strong> &nbsp;&nbsp;
+🤖 <strong>AI/ML Enthusiast</strong> &nbsp;&nbsp;
+💻 <strong>Project Builder</strong>
+
+</p>
+<h2 align="center">🎯 Current Focus</h2>
+
+<p align="center">
+  🐍 Python
+  &nbsp; → &nbsp;
+  📊 Data Science
+  &nbsp; → &nbsp;
+  🤖 Machine Learning
+  &nbsp; → &nbsp;
+  🧠 Deep Learning
+  &nbsp; → &nbsp;
+  ✨ Generative AI
+  &nbsp; → &nbsp;
+  🚀 AI Engineer
+</p>
+<h2 align="center">🚀 What I'm Building</h2>
+
+<table align="center">
+<tr>
+<td align="center">🤖<br><b>AI / ML</b><br>Smart ML applications</td>
+<td align="center">🐍<br><b>Python</b><br>Useful automation tools</td>
+<td align="center">🧠<br><b>AI Tools</b><br>Chatbots & intelligent apps</td>
+</tr>
+<tr>
+<td align="center">📊<br><b>Data</b><br>Data-driven solutions</td>
+<td align="center">🌐<br><b>Web</b><br>APIs & applications</td>
+<td align="center">🚀<br><b>Experiments</b><br>Ideas into projects</td>
+</tr>
+</table>
+<h2 align="center">🚀 Keep Learning. Keep Building. Keep Evolving.</h2>
+
+<p align="center">
+  <i>Turning curiosity into code and ideas into reality.</i>
+</p>
