@@ -21,8 +21,6 @@
 - 🤖 **AI / ML Enthusiast**
 - 💻 **Building practical projects**
 - 🚀 **Learning, experimenting & creating**
-
-<h2 align="center">🛠️ Tech Stack</h2>
 </p>
 <h2 align="center">🤖 AI / ML Featured Project</h2>
 
