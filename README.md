@@ -35,26 +35,6 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,linux" />
 </p>
-<h2 align="center">🚀 Featured Projects</h2>
-
-<p align="center">
-
-<a href="https://github.com/idealhacker-byte/IRIS-FLOWER-CLASSIFICATION">
-<img src="https://opengraph.githubassets.com/1/idealhacker-byte/IRIS-FLOWER-CLASSIFICATION" width="420">
-</a>
-
-<a href="https://github.com/idealhacker-byte/Python-Expense-Tracker">
-<img src="https://opengraph.githubassets.com/1/idealhacker-byte/Python-Expense-Tracker" width="420">
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://github.com/idealhacker-byte/Python-Tkinter-Calculator">
-<img src="https://opengraph.githubassets.com/1/idealhacker-byte/Python-Tkinter-Calculator" width="420">
-</a>
-
 <a href="https://github.com/idealhacker-byte/Basic-Chatbot-using-python-funcation">
 <img src="https://opengraph.githubassets.com/1/idealhacker-byte/Basic-Chatbot-using-python-funcation" width="420">
 </a>
