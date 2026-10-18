@@ -23,22 +23,6 @@
 - 🚀 **Learning, experimenting & creating**
 
 <h2 align="center">🛠️ Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,js" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=numpy,pandas,tensorflow,flask,fastapi" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,linux" />
-</p>
-<a href="https://github.com/idealhacker-byte/Basic-Chatbot-using-python-funcation">
-<img src="https://opengraph.githubassets.com/1/idealhacker-byte/Basic-Chatbot-using-python-funcation" width="420">
-</a>
-
 </p>
 <h2 align="center">🤖 AI / ML Featured Project</h2>
 
